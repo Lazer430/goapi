@@ -22,3 +22,7 @@ func Handler(r *chi.Mux) {
 	})
 
 }
+
+func RegisterHandlers(r *chi.Mux) {
+	Handler(r)
+}
